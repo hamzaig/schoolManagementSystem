@@ -12,9 +12,20 @@
 .loginHeadingDiv h1 {
   font-size: 24px;
 }
+.loginHeadingDiv p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.loginHeadingDiv a {
+  text-decoration: none;
+  color: #e8590c;
+}
+.loginHeadingDiv a:hover {
+  color: #fd7e14;
+}
 
 .formDiv {
-  margin-top: 48px;
+  margin-top: 40px;
 }
 
 .form {
@@ -22,9 +33,65 @@
   margin: 0 380px;
   border: 1.2px solid #ddd;
   border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.userDiv div,
+.passwordDiv div {
+  margin: 12px 0;
+}
+.userDiv input,
+.passwordDiv input {
+  width: 100%;
+  padding: 16px;
+  margin: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.userDiv input:focus,
+.passwordDiv input:focus {
+  outline: none !important;
+  border: 2px solid #d9480f;
+}
+
+.userDiv input::placeholder,
+.passwordDiv input::placeholder {
+  font-size: 16px;
 }
 
 .passwordIcon {
-  margin-left: -28px;
+  color: #e8590c;
+  margin-left: -34px;
   margin-bottom: -8px;
+  cursor: pointer;
+}
+
+.formDiv button {
+  background-color: #e8590c;
+  border: none;
+  color: white;
+  margin: 20px 0;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.forgot {
+  text-align: center;
+}
+.forgot a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #d9480f;
+}
+.forgot a:hover {
+  color: #fd7e14;
+}
+
+.formDiv button:hover {
+  background-color: #fd7e14;
 }
