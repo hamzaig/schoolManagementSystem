@@ -1,0 +1,28 @@
+.mainNav{
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navItem{
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 55px;
+    align-items: center;
+    list-style: none;
+    gap: 42px;
+
+}
+.logo{
+    width: 40px;
+    margin-left: 55px;
+    height: 40px;
+}
+.login{
+    min-width: 768px
+}
