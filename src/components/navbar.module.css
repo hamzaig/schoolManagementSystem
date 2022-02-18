@@ -1,28 +1,40 @@
-.mainNav{
-    display: flex;
-    border-bottom: 1px solid black;
-    height: 10vh;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-.navItem{
-    display: flex;
-    height: 10vh;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 55px;
-    align-items: center;
-    list-style: none;
-    gap: 42px;
+.icon{
+height: 40px;
+width: 40px;
+margin-top: 15px;
+margin-left: 50px;
 
 }
-.logo{
-    width: 40px;
-    margin-left: 55px;
-    height: 40px;
+
+.mainNav{
+  border-bottom: 1px solid lightgrey;
 }
-.login{
-    min-width: 768px
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+  border: none;
+}
+li{
+  float: right;
+
+}
+
+li a{
+  display: block;
+  height: 70px;
+  color: #666;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #fd8151;
+  border-radius: 10px ;
+
+  
 }
