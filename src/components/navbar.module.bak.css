@@ -35,6 +35,9 @@ li a{
 li a:hover{
   background-color: #fd8151;
   border-radius: 10px ;
+  filter: grayscal/e(2%) opacity(4);
+  background: var(--bg-secondary);
+  color: #fd8151;
 
-  
+ 
 }

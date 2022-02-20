@@ -7,9 +7,9 @@ const Navbar = () => {
             <div className={Classes.mainNav}>
                 <ul className={Classes.navItem}>
                     <img className={Classes.icon} src={logo} alt=""/>
+                    <li><a href="http://#">Pricing</a></li>
                     <li><a href="http://#">Home</a></li>
                     <li><a href="http://#">About Us</a></li>
-                    <li><a href="http://#">Pricing</a></li>
                     <li><a href="http://#">Login</a></li>
                 </ul>
             </div>
